@@ -13,16 +13,16 @@
   ],
   "description": "(Get) EventStore Client",
   "dependencies": {
-    "is": "^2.0.1",
-    "node-uuid": "^1.4.1",
-    "protobufjs": "^4.0.0",
-    "request": "2.34.x"
+    "is": "^3.1.0",
+    "node-uuid": "^1.4.7",
+    "protobufjs": "^5.0.0",
+    "request": "^2.67.0"
   },
   "devDependencies": {
-    "async": "^0.9.0",
-    "ges-test-helper": "^0.9.0",
-    "mocha": "^1.21.4",
-    "should": "^4.0.4"
+    "async": "^1.5.0",
+    "ges-test-helper": "^0.10.0",
+    "mocha": "^2.3.4",
+    "should": "^8.0.0"
   },
   "engines": {
     "node": "0.10.x"
@@ -34,5 +34,5 @@
   "keywords": [],
   "license": "MIT +no-false-attribs, +no-advertising License",
   "main": "./ges-client.js",
-  "version": "0.10.0"
+  "version": "0.10.1"
 }
